@@ -1,0 +1,486 @@
+/*Basic setup*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #444343;
+    font-size:20px;
+    font-weight:100;
+    font-family: sans-serif;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    
+}
+.row{
+    margin:0 auto 0 auto;
+    max-width: 1140px;
+}
+
+	
+/*header section for navigations*/
+
+.logo{
+    margin-top: 30px;
+    float:left;
+    position: relative;
+}
+.logotext{
+    display: inline-block;
+    float:right;
+    position: absolute;
+    margin-top:50px;
+}
+.nav{
+    list-style: none;
+}
+.nav li{
+    display:inline-block;
+    margin-top:50px;
+    margin-left: 25px;
+}
+.nav li:first-child{
+    margin-left:200px;
+}
+.nav li a:link,
+.nav li a:visited{
+    text-decoration: none;
+    color:#000;
+    transition: color 0.5s;
+}
+.nav li a:hover,
+.nav li a:active{
+    color:#3e85c7;
+}
+.mainav{
+    float: left;
+}
+.btn:link,
+.btn:visited{
+    float: right;
+    margin-top:-40px;
+    text-decoration: none;
+    display: inline-block;
+    border:solid 2px #000;
+    border-radius:5px;
+    padding: 10px 15px 10px 15px;
+    color:#000;
+    transition: background-color 0.5s, border-color 0.5s, color 0.5s;
+}
+.btn:hover,
+.btn:active{
+    background-color: #3e85c7;
+    color:#fff;
+    border-color:#fff;
+}
+
+
+/*header section for content*/
+.contents{
+    padding:100px 60px;
+}
+.image{
+    width:65%;
+    height:auto;
+   margin-right:50px;
+
+  
+}
+.text{
+    margin-top:-390px;
+    margin-left: 30px;
+    float: right;
+    width:40%;
+}
+.texthead h1{
+    font-weight:200;
+   margin-bottom: 25px;
+}
+.texthead p{
+    line-height: 150%;
+    margin-bottom: 25px;
+    word-spacing:3px;
+    color:#6d6a6a;
+    text-align:justify;
+    font-size: 90%;
+    font-weight: 200;
+   
+}
+.btn1{
+    display: inline-block;
+    margin-top:10px;
+   
+}
+.btn1 a:link,
+.btn1 a:visited{
+    text-decoration: none;
+    color:#fff;
+    background-color:#3e85c7;
+    padding:10px 25px 10px 25px;
+    float:left
+}
+.btn1 a:hover,
+.btn1 a:active{
+    border: solid 2px #3e85c7;
+    border-radius:3px;
+    background-color: #fff;
+    color: #3e85c7;
+    transition: border 0.5s, background-color 0.5s, color 0.5s;
+}
+.btn2{
+    display: inline-block;
+    float:right;
+    margin-top:20px;
+    margin-right:70px;
+    
+}
+.btn2 a{
+    text-decoration: none;
+    color: #726e6e;
+}
+.users p{
+    color:#6d6a6a;
+    font-size:80%;
+    margin-top: 10px;
+    float:left;
+}
+.users a{
+    display: inline-block;
+    float: right;
+    color:#b81212;
+    margin-top:8px;
+    margin-right: 200px;
+    text-decoration: none;
+    font-size:80%;
+}
+
+
+/*---------------Section2-------------*/
+.section-two{
+    padding:150px 100px;
+}
+.texthead-two {
+    font-weight:200;
+    margin-top: 50px;
+    text-align: center;
+}
+.texthead-two-intro{
+    color:#6d6a6a;
+    margin-top:20px;
+    font-size:90%;
+    width: 90%;
+    margin-left:5%;
+    line-height:150%;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.images{
+    width:60%;
+    margin-top:20px;
+    text-align: center;
+}
+.images:after{
+     display:block;
+     height: 2px;       
+     background-color: #309cce;
+     content: ' ';
+     width: 700px;
+     margin-top:50px
+}
+.screen{
+    margin-top:100px;
+}
+.image1{
+    width:45%;
+    height:auto;
+}
+.text-one{
+    line-height: 120%;
+    float:right;
+    width:35%;
+    margin-top:80px;
+    margin-right:70px;
+}
+.texthead-three{
+    font-weight:200;
+    margin-bottom:25px;
+}
+.points li p{
+    color:#6d6a6a;
+    margin-bottom:20px;
+    text-align: justify;
+    font-size: 90%;
+    
+
+}
+.line:after{
+    display:block;
+    height: 1px;
+    background-color: #dddfde;
+    content: ' ';
+    width: 400px;
+    margin-top:30px
+}
+.comment{
+    margin-top:30px;
+    color:#6d6a6a;
+    line-height:120%;
+    text-align:justify;
+    font-size:90%
+}
+.capital{
+    text-transform: uppercase;
+}
+.comment-name{
+    margin-top: 20px;
+    font-size:90%;
+}
+
+
+
+
+/*----------------SECTION 3-------------------*/
+.section-three{
+    padding:150px 100px;
+    background-color:#ecf0f0;
+}
+.texthead-four{
+    font-weight:200;
+    text-align: center;
+    margin-top: 30px;
+}
+.icon{
+    margin-left:90px;
+    margin-top:50px;
+}
+.icons{
+    margin-left:30px;
+}
+.icon-head{
+    margin-left:5px;
+    font-weight:200;
+    margin-top:30px;
+    margin-bottom:15px;
+}
+.icon-text{
+    color:#6d6a6a;
+    font-size: 80%;
+    width:70%;
+    text-align: center;
+}
+.icon-text:after{
+    display:block;
+    height: 2px;
+    background-color: #f1f5f5;
+    content: ' ';
+    width: 300px;
+    margin-top:100px
+}
+.contents-one{
+    margin-top:90px;
+}
+.texthead-five{
+    font-weight:200;
+    margin-bottom:40px;
+}
+.text-five{
+    line-height:150%;
+    font-size:90%;
+    color:#6d6a6a;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+.image2{
+    width:50%;
+}
+.text-two{
+    width:40%;
+    float:right;
+    margin-top:-330px;
+}
+.link1:link,
+.link1:visited,
+.link2:link,
+.link2:visited{
+    color:#309cce;
+    font-size:80%;
+    transition: color 0.5s
+}
+.link1:hover,
+.link1:active,
+.link2:hover,
+.link2:active{
+    color:rgb(226, 34, 21);
+}
+.images-intext{
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+
+/*----------------SECTION 4------------------*/
+.section-four{
+    padding:150px 100px;
+}
+.contents-two{
+    margin-top:50px;
+    margin-left:30px;
+}
+.texthead-six{
+    font-weight:200;
+    margin-bottom:40px;
+}
+.text-six{
+    color:#6d6a6a;
+    font-size:90%;
+    line-height: 150%;
+    width:40%;
+    margin-bottom: 50px;
+}
+
+.image3{
+    float: right;
+    margin-top:-230px;
+    margin-right:10px;
+}
+.section4{
+    margin-top:200px;
+}
+.texthead-seven{
+    font-weight:200;
+    margin-top:30px;
+    margin-bottom:20px;
+    text-align:center;
+    font-size:170%;
+}
+.text-seven{
+    font-size:90%;
+    color:#6d6a6a;
+    width:60%;
+    margin-left:20%;
+    text-align: center;
+}
+.image4{
+    width:100%;
+    margin-top:20px;
+}
+
+
+
+/*----------------------SECTION FIVE----------------*/
+.section-five{
+    padding:150px 100px;
+    background-color:#f7f8f7;
+}
+.image5{
+    margin-top:50px;
+    width:100%;
+    height:50%;
+    padding-left:130px;
+    padding-right:130px ;
+}
+
+
+
+
+
+/*--------------------------SECTION6-------------*/
+.section6{
+    padding-top:80px;
+    padding-bottom:80px;
+    padding-left: 0px;
+    padding-left: 0px;
+    background-size:80%;
+    background-position: 0px;
+}
+.texthead-eight{
+    text-align:center;
+    font-weight:200;
+    color:#e2e2e2;
+}
+.text-eight{
+    font-size:90%;
+    color:#e2e2e2;
+    width:50%;
+    margin-left:25%;
+    text-align: center;
+}
+.link3:link,
+.link3:visited{
+    display:inline-block;
+    text-decoration: none;
+    margin-top:100px;
+    margin-left:580px;
+    padding: 15px 20px;
+    border-radius:5px;
+    background-color: #e2e2e2;
+    transition: color 0.5s, background-color 0.5s, border 0.5s;
+}
+.link3:hover,
+.link3:active{
+    border:2px solid ;
+    color:#e2e2e2;
+    background-color:#234d9b54;
+}
+
+
+
+
+/*--------------------------SECTION7-------------*/
+.section-seven{
+    padding:100px 200px;
+}
+.footer{
+    margin-right:180px;
+    float:right;
+}
+.refer{
+    margin-left:100px;
+}
+
+.refer li {
+    list-style: none;
+}
+.refer li a:link,
+.refer li a:visited{
+    text-decoration:none;
+    color:#6d6a6a;
+    line-height:200%;
+    font-size:80%;
+    transition:color 0.5s;
+}
+.refer li a:hover,
+.refer li a:active{
+    color:#305ace;
+}
+.bold{
+    font-weight:bold;
+}
+.image7{
+    width:100%;
+    height:100%;
+}
+
+
+
+/*----------------------FOOTER-------------------*/
+footer{
+    padding: 10px 250px;
+    background-color:#f7f8f7;
+}
+.foot-list li{
+    list-style: none;
+    display:inline-block;
+    margin-left:25px;
+}
+.foot-list li a{
+    text-decoration: none;
+    color:#6d6a6a;
+    font-size:70%;
+}
+.image8{
+    margin-top:-30px;
+    float: right;
+}
