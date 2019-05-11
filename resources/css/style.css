@@ -8,7 +8,7 @@ body{
     color: #444343;
     font-size:20px;
     font-weight:100;
-    font-family: sans-serif;
+    font-family: Quicksand, sans-serif !important;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
     
